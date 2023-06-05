@@ -19,4 +19,6 @@
     "getstream": "^8.1.5",
     "nodemon": "^2.0.22",
     "stream-chat": "^8.8.0",
-    "twi
+    "twilio": "^4.11.2"
+  }
+}
