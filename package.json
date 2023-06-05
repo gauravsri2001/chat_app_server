@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000c\u0000h\u0000a\u0000t\u0000_\u0000a\u0000p\u0000p\u0000_\u0000s\u0000e\u0000r\u0000v\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "getstream": "^8.1.5",
+    "nodemon": "^2.0.22",
+    "stream-chat": "^8.8.0",
+    "twi
