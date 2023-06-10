@@ -9,6 +9,7 @@ const api_key = process.env.STREAM_API_KEY;
 const api_secret = process.env.STREAM_API_SECRET;
 const app_id = process.env.STREAM_APP_ID;
 
+
 const signup = async (req, res) => {
     try {
         const { fullName, username, password, phoneNumber } = req.body;
@@ -55,5 +56,8 @@ const login = async (req, res) => {
         res.status(500).json({ message: error });
     }
 };
+
+
+
 
 module.exports = { signup, login }
